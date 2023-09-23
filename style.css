@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #fafafa;
+    /* border: 0.5px solid red; */
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:20vh ;
+}
+h1{
+    font-family: 'Yeseva One', cursive;
+    font-size:80px;
+    color: rgb(223, 151, 75);
+}
+#banana-container{
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    overflow: auto;
+}
+
+
+.b-card{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100vw;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    justify-content: flex-end;
+}
+
+.b-card *{
+    background-color: rgba(2, 95, 2, 0.708);
+    color: white;
+    border-left: solid 1px white;
+    padding-left: 8px;
+}
+
+.book-img{
+    height: 60vh;
+}
+.next-btn{
+   font-size: xx-large; 
+   color: rgb(223, 151, 75);
+   height: 50px;
+   flex-basis: 50px;
+   flex-shrink: 0;
+   border-radius: 25px;
+   margin-top: calc(30vh - 12.5px);
+   background-color: rgba(2, 95, 2, 0.708);
+   border: none;
+}
+
+footer{
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .text-search{
+    height: 3vh;
+    width: 18vw;
+    color: rgb(223, 151, 75);
+    border-radius: 15px;
+ 
+   }
+   .search-button{
+    height: 5vh;
+    background-color: rgba(2, 95, 2, 0.708);
+    border: 3px;
+    margin: 9px;
+ 
+    color: rgb(223, 151, 75);
+    border-radius:100% ;
+   }
