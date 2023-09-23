@@ -2,9 +2,14 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: #fafafa;
+    background-color:  #fafafa;
     /* border: 0.5px solid red; */
 }
+
+/* body{
+    background-image: url('./asstes/pattern-tile\ \(1\).png');
+} */
+
 header{
     display: flex;
     justify-content: center;
@@ -21,6 +26,7 @@ h1{
     height: 60vh;
     width: 100%;
     overflow: auto;
+   
 }
 
 
@@ -35,6 +41,11 @@ h1{
     background-repeat: no-repeat;
     background-position: center center;
     justify-content: flex-end;
+    box-shadow: -6px 3px 23px 8px rgba(0,0,0,0.5);
+
+    
+
+
 }
 
 .b-card *{
@@ -42,10 +53,12 @@ h1{
     color: white;
     border-left: solid 1px white;
     padding-left: 8px;
+  
 }
 
 .book-img{
     height: 60vh;
+  
 }
 .next-btn{
    font-size: xx-large; 
@@ -81,4 +94,13 @@ footer{
  
     color: rgb(223, 151, 75);
     border-radius:100% ;
+   }
+   .clear-button{
+    height: 5vh;
+    background-color: rgba(2, 95, 2, 0.708);
+    border: 3px;
+    margin: 9px;
+ 
+    color: rgb(223, 151, 75);
+   border-radius: 75%;
    }
