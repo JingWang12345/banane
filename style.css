@@ -1,106 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
-*{
+@import url("http://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
     padding: 0;
     margin: 0;
-    background-color:  #fafafa;
+    background-color: #01162b;
+    background: linear-gradient();
     /* border: 0.5px solid red; */
 }
 
 /* body{
-    background-image: url('./asstes/pattern-tile\ \(1\).png');
-} */
+    background-image: url('./asstes/pattern-tile\ \(1\).png'); 
+   
+}  */
 
-header{
+
+
+header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:20vh ;
+    height: 25vh;
 }
-h1{
+
+h1 {
     font-family: 'Yeseva One', cursive;
-    font-size:80px;
-    color: rgb(223, 151, 75);
+    font-size: 80px;
+    color: rgb(203, 115, 22);
 }
-#banana-container{
+
+#banana-container {
     display: flex;
-    height: 60vh;
+    height: 50vh;
     width: 100%;
     overflow: auto;
-   
+    gap: 100px;
+    font-family: "Poppins";
 }
 
 
-.b-card{
+.b-card {
     display: flex;
     flex-direction: column;
     flex-basis: 100vw;
     flex-grow: 0;
     flex-shrink: 0;
-    max-width: 400px;
+    max-width: 330px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
     justify-content: flex-end;
-    box-shadow: -6px 3px 23px 8px rgba(0,0,0,0.5);
+    box-shadow: -6px 3px 23px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 15%;
 
-    
+
 
 
 }
 
-.b-card *{
-    background-color: rgba(2, 95, 2, 0.708);
+.b-card * {
+    background-color: rgba(107, 116, 107, 0.6);
     color: white;
     border-left: solid 1px white;
     padding-left: 8px;
-  
-}
-
-.book-img{
-    height: 60vh;
-  
-}
-.next-btn{
-   font-size: xx-large; 
-   color: rgb(223, 151, 75);
-   height: 50px;
-   flex-basis: 50px;
-   flex-shrink: 0;
-   border-radius: 25px;
-   margin-top: calc(30vh - 12.5px);
-   background-color: rgba(2, 95, 2, 0.708);
-   border: none;
-}
-
-footer{
+    height: 50vh;
     display: flex;
-    height: 20vh;
+    align-items: self-end;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: -15%;
+}
+
+.book-img {
+    height: 50vh;
+
+}
+
+.next-btn {
+    font-size: xx-large;
+    color: rgb(203, 115, 22);
+    height: 50px;
+    flex-basis: 50px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    margin-top: calc(30vh - 12.5px);
+    background-color: rgba(2, 95, 2, 0.708);
+    border: none;
+}
+
+footer {
+    display: flex;
+    height: 25vh;
     justify-content: center;
     align-items: center;
-    
-   }
-   .text-search{
+}
+
+.text-search {
     height: 3vh;
     width: 18vw;
-    color: rgb(223, 151, 75);
+    outline: none;
     border-radius: 15px;
- 
-   }
-   .search-button{
+    border-color: aliceblue;
+     color: aliceblue;
+
+}
+
+.search-button {
     height: 5vh;
     background-color: rgba(2, 95, 2, 0.708);
     border: 3px;
     margin: 9px;
- 
-    color: rgb(223, 151, 75);
-    border-radius:100% ;
-   }
-   .clear-button{
-    height: 5vh;
+    color: rgb(203, 115, 22);
+    border-radius: 100%;
+}
+
+.clear-button {
+    height: 3vh;
     background-color: rgba(2, 95, 2, 0.708);
     border: 3px;
     margin: 9px;
- 
-    color: rgb(223, 151, 75);
-   border-radius: 75%;
-   }
+    color: rgb(203, 115, 22);
+    /* border-radius: 15%; */
+}
