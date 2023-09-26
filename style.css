@@ -10,12 +10,12 @@
 }
 
 
-body{
+body {
     /* background-image: url('./asstes/pattern-tile\ \(1\).png');  */
     background-color: #161626;
 }
 
-body::before{
+body::before {
     content: "";
     /* 绝对定位 */
     position: absolute;
@@ -24,12 +24,13 @@ body::before{
     width: 100%;
     height: 100%;
     /* 渐变背景 */
-    background: linear-gradient(#2193b0,#6dd5ed);
+    background: linear-gradient(#2193b0, #6dd5ed);
     /* 将元素剪切微一个圆形【30%表示圆的直径】【right 70%表示圆心位置】 */
     clip-path: circle(30% at right 70%);
     z-index: -1;
 }
-body::after{
+
+body::after {
     content: "";
     /* 绝对定位 */
     position: absolute;
@@ -38,7 +39,7 @@ body::after{
     width: 100%;
     height: 100%;
     /* 渐变背景 */
-    background: linear-gradient(#ee9ca7,#ffdde1);
+    background: linear-gradient(#ee9ca7, #ffdde1);
     /* 将元素剪切微一个圆形【30%表示圆的直径】【right 70%表示圆心位置】 */
     clip-path: circle(20% at 10% 10%);
     z-index: -1;
@@ -82,9 +83,6 @@ h1 {
     box-shadow: -6px 3px 23px 8px rgba(0, 0, 0, 0.5);
     border-radius: 15%;
 
-
-
-
 }
 
 .b-card * {
@@ -96,7 +94,6 @@ h1 {
     display: flex;
     align-items: self-end;
     border-top-left-radius: 15%;
-    border-bottom-left-radius: -15%;
 }
 
 .book-img {
@@ -129,7 +126,7 @@ footer {
     outline: none;
     border-radius: 15px;
     border-color: aliceblue;
-     color: aliceblue;
+    color: aliceblue;
 
 }
 
@@ -144,9 +141,9 @@ footer {
 
 .clear-button {
     height: 3vh;
-    background-color: rgba(2, 95, 2, 0.708);
+    background-color: aliceblue;
     border: 3px;
     margin: 9px;
     color: rgb(203, 115, 22);
-    /* border-radius: 15%; */
+    border-radius: 15px;
 }
